@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url('textures/Background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	z-index: 0;
+}
+
+
+.disc {
+
+	margin-left: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 40%;
+}
+
+.info {
+	display: inline-block;
+	background: rgb(35, 35, 35,0.5);
+	;
+	width: 450px;
+	height: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	margin-left: 50px;
+	z-index: 5;
+}
+
+.content{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+	margin: 10px;
+	padding-left: 10px;
+	color: rgb(197, 197, 197);
+}
+
+.sources{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style: italic;
+	margin: 10px;
+	padding-left: 10px;
+	color: rgb(197, 197, 197);
+}
